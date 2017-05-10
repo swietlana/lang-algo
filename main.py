@@ -16,3 +16,9 @@ for i in words:
 
 
 
+class Language:
+
+	def __init__(self,id,name,iso_code):
+		self.id = id
+		self.name = name
+		self.iso_code = iso_code
